@@ -69,6 +69,6 @@ Here are some screenshots of the application:
 #### Course Details
 ![Courses Details Screenshot](public/course-details.jpeg)
 
-## Important NOtes
+## Important Notes
 - Ensure the backend server is running (npx json-server --watch db.json --port 3000) before starting the frontend development server (npm run dev) to avoid API call issues.
 - The project uses Redux for state management. Understand the Redux store setup and reducers for managing state across the application.
