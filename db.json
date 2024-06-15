@@ -1,0 +1,178 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://placehold.co/600x400",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Advanced React Native",
+      "instructor": "Jane Smith",
+      "description": "Deep dive into advanced React Native concepts and build complex mobile applications.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://placehold.co/600x400",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Introduction to React Native",
+        "Intermediate JavaScript knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Advanced Component Patterns",
+          "content": "Learn advanced patterns and techniques for building reusable components."
+        },
+        {
+          "week": 2,
+          "topic": "State Management",
+          "content": "Managing state in larger applications using Redux and Context API."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Charlie Brown",
+          "email": "charlie@example.com"
+        },
+        {
+          "id": 104,
+          "name": "Diana Prince",
+          "email": "diana@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Full-Stack Development with React and Node.js",
+      "instructor": "Michael Brown",
+      "description": "Learn to build full-stack applications using React for the frontend and Node.js for the backend.",
+      "enrollmentStatus": "In Progress",
+      "thumbnail": "https://placehold.co/600x400",
+      "duration": "12 weeks",
+      "schedule": "Fridays, 5:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic JavaScript knowledge",
+        "Familiarity with HTML/CSS"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Full-Stack Development",
+          "content": "Overview of full-stack development, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Frontend with React",
+          "content": "Building user interfaces with React, component-based architecture."
+        }
+      ],
+      "students": [
+        {
+          "id": 105,
+          "name": "Eve Adams",
+          "email": "eve@example.com"
+        },
+        {
+          "id": 106,
+          "name": "Frank Castle",
+          "email": "frank@example.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Introduction to Machine Learning",
+      "instructor": "Sarah Lee",
+      "description": "Understand the fundamentals of machine learning and its applications in various industries.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://placehold.co/600x400",
+      "duration": "6 weeks",
+      "schedule": "Saturdays, 10:00 AM - 12:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic Python knowledge",
+        "Understanding of statistics"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Machine Learning",
+          "content": "Overview of machine learning concepts and applications."
+        },
+        {
+          "week": 2,
+          "topic": "Supervised Learning",
+          "content": "Understanding supervised learning algorithms and techniques."
+        }
+      ],
+      "students": [
+        {
+          "id": 107,
+          "name": "Grace Hopper",
+          "email": "grace@example.com"
+        },
+        {
+          "id": 108,
+          "name": "Henry Ford",
+          "email": "henry@example.com"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "ameer wajid ali",
+      "email": "ameerwajidali@gmail.com",
+      "courses": [
+        {
+          "id": "1",
+          "progress": 50,
+          "due": "24-06-2025",
+          "completed":false
+        },
+        {
+          "id": "2",
+          "progress": 30,
+          "due": "24-06-2025",
+          "completed":false
+        }
+      ]
+    }
+  ]
+}
